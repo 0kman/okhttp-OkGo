@@ -20,7 +20,7 @@ import com.lzy.imagepicker.view.SystemBarTintManager;
 
 import butterknife.ButterKnife;
 
-public abstract class BaseActivity extends AppCompatActivity {//////
+public abstract class BaseActivity extends AppCompatActivity {//////aaa
 
     @SuppressWarnings("unchecked")
     public <T extends View> T findView(int id) {
@@ -39,7 +39,7 @@ public abstract class BaseActivity extends AppCompatActivity {//////
         ButterKnife.bind(this);
     }
 
-    @Override
+    @Override 
     public void setContentView(View view) {
         super.setContentView(view);
         ButterKnife.bind(this);
